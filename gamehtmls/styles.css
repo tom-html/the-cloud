@@ -79,3 +79,11 @@ iframe {
     margin: auto;
     margin-top: 1%;
 }
+
+@media all and (max-width:1080px) {
+
+    .row{
+      margin-left: 10%;
+      padding-left: 0;
+    }
+}

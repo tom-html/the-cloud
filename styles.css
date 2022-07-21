@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+
 body {
     background: #151D21;
     background-image: url('../images/bg.png');
@@ -72,4 +73,12 @@ header {
     text-align: center;
     margin-left: clamp(60px, 6%, 1000px);
     margin-right: clamp(60px, 5%, 1000px);
+}
+
+@media all and (max-width:1080px) {
+
+    .row{
+      margin-left: 10%;
+      padding-left: 0;
+    }
 }
